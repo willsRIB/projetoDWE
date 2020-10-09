@@ -1,0 +1,91 @@
+<!DOCTYPE/>
+<html>
+<html lang="pt-br"/>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/cadastrodesap.css"/>
+		<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+		<script src="js/javinha.js"></script>
+		<script src="js/navbar.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title/>Projeto Final</title>
+		
+	</head>
+	<body>
+	
+		<div id="principal">
+		<nav id="imagemperfil">
+			<div id="Logo">
+				<img class="logoL" src="img/logoL.png"/>
+			</div>
+			<input type="checkbox" class="check" id="checked">
+    <label class="menu-btn" for="checked">
+        <span class="bar top"></span>
+        <span class="bar middle"></span>
+        <span class="bar bottom"></span>
+        <span class="menu-btn__text"></span>
+    </label>
+    <label class="close-menu" for="checked"></label>
+    <nav class="drawer-menu">
+        <ul>
+            <li><a href="perfil.html">Inicio</a></li>
+            <li><a href="pessoasdesap.html">Pessoas Desaparecidas</a></li>
+            <li><a href="#">Cadastro de desaparecidos</a></li>
+            <li><a href="index.html">Sair</a></li>
+        </ul>
+    </nav>
+		</nav>
+			
+		
+		
+	
+		<section id="desaparecidos">
+		
+				<form name="dados" action="pessoasdesap.html" method="POST">
+				
+					<center>
+						
+						<br>
+						
+						<img class="logoC" src="img/logoC.png"/>
+						<p> Preencha os dados para cadastrar a pessoa desaparecida.</p>
+						<br><br>
+					
+						<input class="cadnome" type="text" name="nome" size="30" required placeholder="Nome completo"/>	<br><br>
+						
+						<input class="masculino" type="radio" name="gender" value="male" checked> Masculino<br>
+					
+						<input class="feminino" type="radio" name="gender" value="female"> Feminino<br>
+
+						<input class="outro" type="radio" name="gender" value="other"> Outro<br><br>
+						
+						<input class="cadbo" type="text" name="b.o" size="15" required placeholder="N° do B.O"/><br><br>
+						
+						<input class="cadnome" type="text" size="30" required placeholder="Visto por ultimo"/><br><br>
+						<form>
+						
+						<input class="cadnome" type="tel" name="f_tel" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="Telefone:(xx)9xxxx-xxxx" size="30">	<br><br>
+						</form>
+						<p class="foto">Selecione uma foto:</p>
+						<input class="foto1" type="file" name="myFile" required><br><br>		
+						
+						<label>Informações adicionais:</label><br><textarea  class="msg" cols="35" rows="8"></textarea><br>
+						
+						<br>
+						
+						
+						<button class="butCadastrar" type="submit" onclick="alert('Cadastro concluido!')" name="cad"><b>Cadastrar</b></button>
+						<input class="butReset" type="reset"  name="b2" value="Limpar cadastro">
+					</center>
+				</form>
+				
+		</section>
+		</div>
+		
+		
+		
+	</body>
+</html>

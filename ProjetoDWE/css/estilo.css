@@ -1,0 +1,920 @@
+@media screen and (max-width:2000px){
+	#principal{
+		
+		width:1300px;
+		height:740px;
+		position:relative;
+		border:0px solid #000;
+		margin:auto;
+	}
+	
+	/*PAGINA DE CADASTRO*/
+	
+	#caddireita{
+		width:400px;
+		height:420px;
+		border:1px solid #DCDCDC;
+		border-radius: 4px;
+		background-color: white;
+		margin: 30 auto 0 auto;
+		position:relative;
+		
+		/*left: 50%; top: 50%;
+		transform: translate(-50%, -50%);*/
+	}
+	
+	#caddireita2{
+		width:400px;
+		height: 50px;
+		border:1px solid #DCDCDC;
+		margin: 8 auto 20 auto;
+		background-color: white;
+		position:relative;
+	}
+	
+	#caddireita3{
+		width:400px;
+		height: 50px;
+		border:0px solid #000;
+		margin: 8 auto 100 auto;
+		position:relative;
+	}
+		
+	a.new:link, a:visited {
+			text-decoration: none;
+			}
+	a.new:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+			
+	img.logoC{
+		width: 150px; 
+		height: 116px; 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	input.cademail{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 5;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadsenha{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadnome{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: -10px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+		
+		color: #005497;
+		font: verdana;
+	}
+
+	
+	input.cadcelular{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 40px 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	button.butCadastrar{
+		border: 1px solid transparent;
+		background-color: #3897f0;
+		/*margin-left: 36%;*/
+		margin-top: 10px;
+		border-radius: 4px;
+		font: inherit;
+		color: white;
+		cursor: pointer;
+		padding: 6px 50px;
+	}
+	
+	
+	img.ios{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	img.android{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	p.termos{
+		color: #999;
+		margin: 10px 60px;
+		text-align: center;
+	}
+	
+	font.termos{
+		color: #999;
+		font-weight: bold;
+	}
+	
+	#caddireita p a:link, a:visited {
+			text-decoration: none;
+			}
+	
+	#cadrodape{
+	width:1300px;
+	height:104px;
+	background-color: none;
+	position:relative;
+	margin-top: -70px;
+	}
+	
+	#cadrodape font{
+		color:#003569;
+		font-size:15px;
+		font-family:arial;
+		font-size:15px;
+		padding: 5px 10px;
+	}
+	
+		#cadrodape a:link, a:visited {
+			text-decoration: none;
+			padding: 5px -5px;
+			}
+		#cadrodape a:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+	
+		font.cadastrar{
+		font-size: 16px;
+		color: #003569;
+	}
+	
+}
+@media screen and (max-width:1100px){
+	#principal{
+		
+		width:820px;
+		height:740px;
+		position:relative;
+		border:0px solid #000;
+		margin:auto;
+	}
+
+		/*PAGINA DE CADASTRO*/
+	
+	#caddireita{
+		width:400px;
+		height:420px;
+		border:1px solid #DCDCDC;
+		border-radius: 4px;
+		background-color: white;
+		margin: 30 auto 0 auto;
+		position:relative;
+		
+		/*left: 50%; top: 50%;
+		transform: translate(-50%, -50%);*/
+	}
+	
+	#caddireita2{
+		width:400px;
+		height: 50px;
+		border:1px solid #DCDCDC;
+		margin: 8 auto 20 auto;
+		background-color: white;
+		position:relative;
+	}
+	
+	#caddireita3{
+		width:400px;
+		height: 50px;
+		border:0px solid #000;
+		margin: 8 auto 100 auto;
+		position:relative;
+	}
+		
+	a.new:link, a:visited {
+			text-decoration: none;
+			}
+	a.new:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+			
+	img.logoC{
+		width: 150px; 
+		height: 116px; 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	input.cademail{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 5;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadsenha{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadnome{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: -10px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+		
+		color: #005497;
+		font: verdana;
+	}
+
+	
+	input.cadcelular{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 40px 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	button.butCadastrar{
+		border: 1px solid transparent;
+		background-color: #3897f0;
+		/*margin-left: 36%;*/
+		margin-top: 10px;
+		border-radius: 4px;
+		font: inherit;
+		color: white;
+		cursor: pointer;
+		padding: 6px 50px;
+	}
+	
+	
+	img.ios{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	img.android{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	p.termos{
+		color: #999;
+		margin: 10px 60px;
+		text-align: center;
+	}
+	
+	font.termos{
+		color: #999;
+		font-weight: bold;
+	}
+	
+	#caddireita p a:link, a:visited {
+			text-decoration: none;
+			}
+	
+	#cadrodape{
+	width:600px;
+	height:104px;
+	background-color: none;
+	position:relative;
+	margin-top: -70px;
+	margin-left: 110px;
+	}
+	
+	#cadrodape font{
+		color:#003569;
+		font-size:15px;
+		font-family:arial;
+		font-size:15px;
+		padding: 5px 7px;
+	}
+	
+			#cadrodape a:link, a:visited {
+			text-decoration: none;
+			padding: 5px -7px;
+			}
+		#cadrodape a:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+	
+	
+		font.cadastrar{
+		font-size: 16px;
+		color: #003569;
+	}
+	
+}
+@media screen and (max-width:770px){
+	#principal{
+		
+		width:550px;
+		height:740px;
+		position:relative;
+		border:0px solid #000;
+		margin:auto;
+	}
+	
+	/*PAGINA DE CADASTRO*/
+	
+	#caddireita{
+		width:400px;
+		height:420px;
+		border:1px solid #DCDCDC;
+		border-radius: 4px;
+		background-color: white;
+		margin: 30 auto 0 auto;
+		position:relative;
+		
+		/*left: 50%; top: 50%;
+		transform: translate(-50%, -50%);*/
+	}
+	
+	#caddireita2{
+		width:400px;
+		height: 50px;
+		border:1px solid #DCDCDC;
+		margin: 8 auto 20 auto;
+		background-color: white;
+		position:relative;
+	}
+	
+	#caddireita3{
+		width:400px;
+		height: 50px;
+		border:0px solid #000;
+		margin: 8 auto 100 auto;
+		position:relative;
+	}
+		
+	a.new:link, a:visited {
+			text-decoration: none;
+			}
+	a.new:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+			
+	img.logoC{
+		width: 150px; 
+		height: 116px; 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	input.cademail{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 5;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadsenha{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadnome{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: -10px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+		
+		color: #005497;
+		font: verdana;
+	}
+
+	
+	input.cadcelular{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 40px 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	button.butCadastrar{
+		border: 1px solid transparent;
+		background-color: #3897f0;
+		/*margin-left: 36%;*/
+		margin-top: 10px;
+		border-radius: 4px;
+		font: inherit;
+		color: white;
+		cursor: pointer;
+		padding: 6px 50px;
+	}
+	
+	
+	img.ios{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	img.android{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	p.termos{
+		color: #999;
+		margin: 10px 60px;
+		text-align: center;
+	}
+	
+	font.termos{
+		color: #999;
+		font-weight: bold;
+	}
+	
+	#caddireita p a:link, a:visited {
+			text-decoration: none;
+			}
+	
+	#cadrodape{
+	width:450px;
+	height:104px;
+	background-color: none;
+	position:relative;
+	margin-top: -60px;
+	margin-left: 50px;
+	}
+	
+	
+	#cadrodape font{
+		color:#003569;
+		font-size:15px;
+		font-family:arial;
+		padding: 10px 5px;
+	}
+	
+		#cadrodape a:link, a:visited {
+			text-decoration: none;
+			padding: 5px -7px;
+			}
+		#cadrodape a:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+	
+		font.cadastrar{
+		font-size: 16px;
+		color: #003569;
+	}
+	
+}
+@media screen and (max-width:500px){
+
+	#principal{
+		
+		width:420px;
+		height:740px;
+		position:relative;
+		border:0px solid #000;
+		margin:auto;
+	}
+	
+		/*PAGINA DE CADASTRO*/
+	
+	#caddireita{
+		width:400px;
+		height:420px;
+		border:1px solid #DCDCDC;
+		border-radius: 4px;
+		background-color: white;
+		margin: 30 auto 0 auto;
+		position:relative;
+		
+		/*left: 50%; top: 50%;
+		transform: translate(-50%, -50%);*/
+	}
+	
+	#caddireita2{
+		width:400px;
+		height: 50px;
+		border:1px solid #DCDCDC;
+		margin: 8 auto 20 auto;
+		background-color: white;
+		position:relative;
+	}
+	
+	#caddireita3{
+		width:400px;
+		height: 50px;
+		border:0px solid #000;
+		margin: 8 auto 100 auto;
+		position:relative;
+	}
+		
+	a.new:link, a:visited {
+			text-decoration: none;
+			}
+	a.new:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+			
+	img.logoC{
+		width: 150px; 
+		height: 116px; 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	input.cademail{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 5;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadsenha{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadnome{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: -10px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+		
+		color: #005497;
+		font: verdana;
+	}
+
+	
+	input.cadcelular{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 40px 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	button.butCadastrar{
+		border: 1px solid transparent;
+		background-color: #3897f0;
+		/*margin-left: 36%;*/
+		margin-top: 10px;
+		border-radius: 4px;
+		font: inherit;
+		color: white;
+		cursor: pointer;
+		padding: 6px 50px;
+	}
+	
+	
+	img.ios{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	img.android{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	p.termos{
+		color: #999;
+		margin: 10px 60px;
+		text-align: center;
+	}
+	
+	font.termos{
+		color: #999;
+		font-weight: bold;
+	}
+	
+	#caddireita p a:link, a:visited {
+			text-decoration: none;
+			}
+	
+	#cadrodape{
+	width:280px;
+	height:104px;
+	background-color: none;
+	position:relative;
+	margin-top: -60px;
+	margin-left: 70px;
+	}
+	
+	#cadrodape font{
+		color:#003569;
+		font-size:14px;
+		font-family:arial;
+		padding: 10px 8px;
+	}
+	
+				#cadrodape a:link, a:visited {
+			text-decoration: none;
+			padding: 5px -7px;
+			}
+		#cadrodape a:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+	
+		font.cadastrar{
+		font-size: 16px;
+		color: #003569;
+	}
+	
+}
+@media screen and (max-width:400px){
+#principal{
+		
+		width:320px;
+		height:750px;
+		position:relative;
+		border:0px solid #000;
+		margin:auto;
+	}
+	
+	/*PAGINA DE CADASTRO*/
+	
+	#caddireita{
+		width:320px;
+		height:420px;
+		border:1px solid #DCDCDC;
+		border-radius: 4px;
+		background-color: white;
+		margin: 30 auto 0 auto;
+		position:relative;
+		
+		/*left: 50%; top: 50%;
+		transform: translate(-50%, -50%);*/
+	}
+	
+	#caddireita2{
+		width:320px;
+		height: 50px;
+		border:1px solid #DCDCDC;
+		margin: 8 auto 20 auto;
+		background-color: white;
+		position:relative;
+	}
+	
+	#caddireita3{
+		width:310px;
+		height: 50px;
+		border:0px solid #000;
+		margin: 8 auto 100 auto;
+		position:relative;
+	}
+		
+	a.new:link, a:visited {
+			text-decoration: none;
+			}
+	a.new:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+			
+	img.logoC{
+		width: 150px; 
+		height: 116px; 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	input.cademail{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 5;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadsenha{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	input.cadnome{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: -10px;
+		padding: 7px 0 4px 6px;
+		border-radius: 3px;
+		box-sizing: border-box;
+		
+		color: #005497;
+		font: verdana;
+	}
+
+	
+	input.cadcelular{
+		font-size: 16px;
+		background: #fafafa;
+		border: 1px solid #e6ecf0;
+		-webkit-box-flex: 1;
+		margin-top: 3px;
+		padding: 7px 40px 4px 6px;
+		border-radius: 3px;
+		
+		color: #005497;
+		font: verdana;
+	}
+	
+	button.butCadastrar{
+		border: 1px solid transparent;
+		background-color: #3897f0;
+		/*margin-left: 36%;*/
+		margin-top: 10px;
+		border-radius: 4px;
+		font: inherit;
+		color: white;
+		cursor: pointer;
+		padding: 6px 50px;
+	}
+	
+	
+	img.ios{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	img.android{
+		width: 136px; 
+		height: 44px; 
+	}
+	
+	p.termos{
+		color: #999;
+		margin: 10px 60px;
+		text-align: center;
+	}
+	
+	font.termos{
+		color: #999;
+		font-weight: bold;
+	}
+	
+	#caddireita p a:link, a:visited {
+			text-decoration: none;
+			}
+	
+	#cadrodape{
+	width:260px;
+	height:104px;
+	background-color: none;
+	position:relative;
+	margin-top: -60px;
+	margin-left: 30px;
+	
+	}
+	
+	#cadrodape font{
+		color:#003569;
+		font-size:14px;
+		font-family:arial;
+		padding: 6px 5px;
+	}
+	
+		#cadrodape a:link, a:visited {
+			text-decoration: none;
+			padding: 5px -7px;
+			}
+		#cadrodape a:hover {
+				text-decoration: underline; 
+				color: #003569;
+			}	
+	
+		font.cadastrar{
+		font-size: 16px;
+		color: #003569;
+	}
+	
+}
